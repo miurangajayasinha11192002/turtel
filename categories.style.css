@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navigation*/
+nav{
+    background-color: #bbab879c;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /*gap: 2rem;*/
+    color: white;
+    font-size: 15px;
+    align-items: center;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    background: #d5ccb6;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    /*background: #000;*/
+    color: black;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+/*Head*/
+.Head-categories{
+    color: #d5ccb6c7;
+    height: 400px;
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)) , url(../Assets/178009.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*Paragraph*/
+.Cate{
+    color: #b8bb7cfa;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    padding: top;
+}
+
+
+/*Categories photo and information*/
+
+.Green{
+    width: 30rem;
+    height: 30rem;
+}
+
+.green-turtle  p {
+    position: absolute;
+    top: 75%;
+    padding-left: 35%;
+    padding-right: 1%;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Nixie One', cursive;
+    font-size: 115%;
+   
+}
+
+
+.green-turtle h2{
+    position: absolute;
+    top: 70%;
+    padding-left: 35%;
+    font-family: 'Castoro Titling', cursive;
+}
+
+
+.Logger{
+    width: 30rem;
+    height: 30rem;
+}
+
+.loggerhead-turtle  p {
+    position: absolute;
+    top: 170%;
+    padding-left: 35%;
+    padding-right: 1%;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Nixie One', cursive;
+    font-size: 115%;
+   
+}
+
+.loggerhead-turtle h2{
+    position: absolute;
+    top: 165%;
+    padding-left: 35%;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.Hawksbill{
+    width: 30rem;
+    height: 30rem;
+}
+
+.hawksbill-turtle  p {
+    position: absolute;
+    top: 267%;
+    padding-left: 35%;
+    padding-right: 1%;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Nixie One', cursive;
+    font-size: 115%;
+   
+}
+
+.hawksbill-turtle h2{
+    position: absolute;
+    top: 262%;
+    padding-left: 35%;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.Leatherback{
+    width: 30rem;
+    height: 30rem;
+}
+
+.leatherback-turtle  p {
+    position: absolute;
+    top: 365%;
+    padding-left: 35%;
+    padding-right: 1%;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Nixie One', cursive;
+    font-size: 115%;
+   
+}
+
+.leatherback-turtle h2{
+    position: absolute;
+    top: 360%;
+    padding-left: 35%;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.Olive{
+    width: 30rem;
+    height: 30rem;
+}
+
+.olive-turtle  p {
+    position: absolute;
+    top: 457%;
+    padding-left: 35%;
+    padding-right: 1%;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Nixie One', cursive;
+    font-size: 115%;
+   
+}
+
+.olive-turtle h2{
+    position: absolute;
+    top: 452%;
+    padding-left: 35%;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.Kemp{
+    width: 30rem;
+    height: 30rem;
+}
+
+.kemp-turtle  p {
+    position: absolute;
+    top: 555%;
+    padding-left: 35%;
+    padding-right: 1%;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Nixie One', cursive;
+    font-size: 115%;
+   
+}
+
+.kemp-turtle h2{
+    position: absolute;
+    top: 550%;
+    padding-left: 35%;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.Flatback{
+    width: 30rem;
+    height: 30rem;
+}
+
+.flat-turtle  p {
+    position: absolute;
+    top: 650%;
+    padding-left: 35%;
+    padding-right: 1%;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Nixie One', cursive;
+    font-size: 115%;
+   
+}
+
+.flat-turtle h2{
+    position: absolute;
+    top: 645%;
+    padding-left: 35%;
+    font-family: 'Castoro Titling', cursive;
+}
+  
+/*Summery Table*/
+
+.Summery{
+
+    text-align: center;
+    margin: 5%;
+    font-family: 'Alfa Slab One', cursive;
+    color: black;
+    background-color: #00a2ff61;
+    font-size: xx-large;
+ }
+ 
+ .table-box{
+     margin: 50px auto;
+ }
+ 
+ .table-row{
+     display: table;
+     width: 80%;
+     margin:10px auto;
+     font-family: sans-serif;
+     background: transparent;
+     padding: 12px 0;
+     color: #555;
+     font-size: 13px;
+     box-shadow: 0 1px 4px 0 rgba(0,0, 50, 0.3);
+ }
+ 
+ .table-cell{
+ 
+     display: table-cell;
+     width: 30%;
+     text-align: center;
+     padding: 4px 0;
+     border-right: 1px solid #d6d4d4;
+     vertical-align: middle;
+ }
+ 
+ .table-head{
+     background: #6659e1;
+     box-shadow: none;
+     color: #fff;
+     font-weight: 500;
+ }
+ .Summery{
+ 
+    text-align: center;
+    margin: 5%;
+    font-family: 'Poltawski Nowy', serif;
+ }
+ 
+ .table-box{
+     margin: 50px auto;
+ }
+ 
+ .table-row{
+     display: table;
+     width: 80%;
+     margin:10px auto;
+     font-family: sans-serif;
+     background: transparent;
+     padding: 12px 0;
+     color: #330a87db;
+     font-size: 13px;
+     box-shadow: 0 1px 4px 0 rgba(0,0, 50, 0.3);
+ }
+ 
+ .table-cell{
+ 
+     display: table-cell;
+     width: 30%;
+     text-align: center;
+     padding: 4px 0;
+     border-right: 1px solid #d6d4d4;
+     vertical-align: middle;
+     font-size: larger;
+ }
+ 
+ .table-head{
+     background: #d5ccb6e0;
+     box-shadow: none;
+     color: black;
+     font-weight: 700;
+     font-family: 'Poltawski Nowy', serif;
+ }
+
+ /*Footer*/
+.foot{
+    background-color: #d6d4d4;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    margin-top: 2%; 
+}
+
+ /*Positioning the references*/
+ .reference{
+     display: grid;
+     padding: 10px;
+ }

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navigation*/
+nav{
+    background-color: #3c3c376e;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /*gap: 2rem;*/
+    color: white;
+    font-size: 15px;
+    align-items: center;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    background: #ababa9;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    /*background: #000;*/
+    color: black;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+.Head-benthota{
+    background-color: #00008b;
+    color: white;
+    height: 400px;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)) , url(../Assets/turtle\ 11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Rubik Puddles', cursive;
+    }
+
+.Head-benthota h1{
+    margin: 0;
+    font-size: xx-large;
+    text-align: center;
+    color: transparent;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left,#2ecc71,#3498db,#9b59b6,#f39c12);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    text-align: center;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
+
+.Head-benthota p{
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: transparent;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left,#2ecc71,#3498db,#9b59b6,#f39c12);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+}
+
+.img{
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+    border-radius: 20%;
+}
+
+.other-head h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #9b59b6;
+} 
+
+/*other image head*/
+.other-head{
+    margin-left: 45%;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/*other image*/
+.oimg1{
+
+    width: 505px;
+    height: 450px;
+    border-radius: 20%;
+}
+
+.oimg2{
+
+    width: 500px;
+    height: 450px;
+    border-radius: 20%;
+}
+
+.oimg3{
+
+    width: 505px;
+    height: 450px;
+    border-radius: 20%;
+}
+
+/*map*/
+.map-ben{
+    margin-left: 40%;
+}
+
+/*Footer*/
+.foot{
+    background-color: #d6d4d4;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    margin-top: 1%; 
+}
+
+ /*Positioning the references*/
+ .reference{
+     display: grid;
+     padding: 10px;
+ }

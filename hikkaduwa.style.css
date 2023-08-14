@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Space+Grotesk:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navigation*/
+nav{
+    background-color: #85ffff82;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul{
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /*gap: 2rem;*/
+    color: white;
+    font-size: 15px;
+    align-items: center;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    background: #c1ffff;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    /*background: #000;*/
+    color: black;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+/*Head*/
+.Head-hikkaduwa{
+    color: #a5f6f6f0;
+    height: 600px;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)) ,  url(../Assets/categories3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+/*Description*/
+.hikkaduwa{
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: left;
+    color: #a5f6f6f0;
+    font-weight: 100;
+}
+
+/*Background colour*/
+.colour{
+    background-color: #00ffff7a;
+}
+
+/*Image*/
+.main-img1{
+
+    width: 505px;
+    height: 450px;
+}
+
+.main-img2{
+
+    width: 500px;
+    height: 450px;
+}
+
+.main-img3{
+
+    width: 505px;
+    height: 450px;
+}
+
+
+/*Map*/
+.map-hik{
+  width: 600px;
+  height: 450px;
+  margin-left: 30%;
+}
+
+/*Footer*/
+.foot{
+    background-color: #d6d4d4;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    margin-top: -1%; 
+}
+
+ /*Positioning the references*/
+ .reference{
+     display: grid;
+     padding: 10px;
+ }
+
+ /*Bokking tickets*/
+ .booknow{
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    padding: 2rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+ }
+ 
+

@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+     
+    background-color:#0cee6c;
+      line-height: 0.9em;
+      padding-bottom: 30px;
+      color: #fff;
+      
+  }
+     
+   h1 a{
+      
+      
+      color: black;
+      font-size:large;
+      text-decoration: none;
+      background-color: #2ECC71;
+  
+  }
+  
+  
+  ul.Header li {
+    display: inline;
+    font-size: 18px;
+  
+  
+  }
+    
+     
+  .Header li a{
+  text-decoration: none;
+  color: #000000;
+  
+  
+  }
+  
+  ul.Header li {
+    display: inline;
+    font-size: 18px;
+  
+  
+  
+  }
+    
+     
+  .Header li a{
+  text-decoration: none;
+  color: #070707;
+  
+  
+  
+  }
+  
+  .ab {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d1b9b9cf;
+    border: 1px solid #c01717;
+    padding: 3%;
+    margin-top: 1rem;
+    margin-left: 11rem;
+    float: left;
+  }
+  
+  
+  /* Style calendar section */
+  
+  
+  .wrap {
+    
+    width: 100%;
+    max-width: 400px;
+    
+  }
+  
+  .cal {
+    background-color: rgb(245, 243, 243);
+    border-radius: 10px;
+  
+  
+  }
+  
+  header {
+    background-color: #c8be84;
+    color:black;
+    padding: 1rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    
+  }
+  
+  
+  .week {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .calender-b {
+    background-color: #55a6c854;
+    border: 1px solid #c01717;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 4rem;
+    margin-right: 34rem;
+    margin-left: 34rem;
+  }
+  
+  .day{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .day li {
+  
+    height: 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .day li:hover {
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Style price table */
+  .pricing-t {
+    background-color: #bdf0dde0;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .pricing-t h1{
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: center;
+   
+  }
+  
+  .booking-form {
+    background-color: #bdf0dde0;
+    padding: 20px;
+  }
+  
+  .guest-sele,
+  .duration {
+    margin-bottom: 15px;
+  }
+  
+  .sele-time {
+    width: 65%;
+    padding: 8px;
+    margin-top: 5%;
+  }
+  
+  .summary-t {
+    float: right;
+    background-color:  #d1b9b9cf;
+    border: 1px solid #c01717;
+    padding: 3%;
+    margin-top: 1rem;
+    margin-right: 10rem;
+  }
+  .summary-t h1{
+    text-align: center;
+    padding:4% ;
+  }
+    
+  
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  /* Style submit button */
+  .submit-b {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 2rem ;
+    margin-left: 10rem;
+  
+  }
+  
+  .submit-b:hover {
+    background-color: #45a049;
+    border-radius:10px;
+   
+  }

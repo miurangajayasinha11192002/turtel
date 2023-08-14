@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navigation*/
+nav{
+    background-color: #bfe0ff;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /*gap: 2rem;*/
+    color: white;
+    font-size: 15px;
+    align-items: center;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    background: #bfe0ff;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    /*background: #000;*/
+    color: black;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+/*Head*/
+.Head-index{
+    background-color: #00008b;
+    color: white;
+    height: 600px;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)) , url(../Assets/turtle2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Pa{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Pa a button{
+    background-color: #4daadb;
+    border: none;
+    color: rgb(14, 3, 127);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.intro{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Playfair', serif;
+}
+
+.Head h1{
+    font-size: 60px;
+}
+
+
+.Head p{
+    text-align: center;
+    align-items: center;
+}
+
+.Head p a{
+    border: 2px solid wheat;
+    text-decoration: none;
+    /*color: white;*/
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.Head p a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Button*/
+
+
+
+/*Hero images*/
+
+.grid-iterms{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 2rem;
+    position: absolute;
+    top: 80%;
+    width: 50%;
+    justify-content: center;
+}
+
+.grid-iterms > :nth-child(2){
+    grid-row: span 2;
+}
+
+.Hero-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*embed video*/
+.iframe{
+    position: absolute;
+    top: 175%; 
+    margin: auto;
+    left: 30%;
+    right: 30%;
+}
+
+body{
+    background-color: #67dbc4ad;
+}
+
+/*Footer*/
+.foot{
+    background-color: #d6d4d4;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    margin-top: 55%; 
+}
+
+ /*Positioning the references*/
+ .reference{
+     display: grid;
+     padding: 10px;
+ }
+
+
+
+  

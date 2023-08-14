@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../Css/details.css">
+    <title>Details</title>
+</head>
+<body>
+
+    <h1><a href="../Pages/hikkaduwa.html" >< Home </a><center>Buy Tickets</center></h1>
+
+
+ <br>
+    
+        <ul class="Header">
+          <li><a href="../Pages/ticket.html"> Ticket </a></li>
+          <
+        
+          <li><a href="../Pages/details.html">  Details</a></li>
+          <
+          <li><a href="../Pages/payment.html"> Payment</a></li>
+           <
+          <li><a href="../Pages/confirmation.html"> Confirmation </a></li>
+          
+        </ul>
+        <br><br>
+        <section class="forms">
+          <fieldset>
+              <br><br>
+              <h2>Enter details</h2>
+              <br><br>
+              <form action="details-form">
+                <label for="name">Full Name</label><br>
+                <input class="box1" type="text" name="firstname" id="firstname" placeholder="Enter Full Name" required>
+              
+                  <br><br>
+                  <label for="tel">Mobile Number</label><br>
+            <select name="country" id="countrynum" class="countrynum">
+                <option>+94</option>
+                <option>+97</option>
+                <option>+1</option>
+                <option>+233</option>
+                <option>+31</option>
+                <option>+99</option>
+            </select>
+            <input class="telebox" type="number" name="phone" id="telephone" placeholder="Enter Mobile Number" min="10" required><br><br>
+                  
+            <label for="Premail">E-Mail</label><br>
+            <input class="box1" type="email" name="email" id="email" placeholder="theek@mail.com"required><br><br>
+                  
+            <label for="Premail">Confirm E-Mail</label><br>
+            <input class="box1" type="email" name="email" id="conf-email" placeholder="Confirm e-mail" required><br>
+                  
+                  <br><br>
+                  
+                  <label for="gender">Gender</label><br>
+            <select id="Gender">
+                <option selected class="select">Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select><br>
+                  
+                  <br><br>
+
+                  
+            <button type="submit" id="submit-b" class="submit-b">Confirm with Purchase</button>
+              </form> 
+          </fieldset>
+          
+      </section>
+  
+      <div class="summary" id="summarySe">
+        <section class="use-details-t">
+            <table class="use-details">
+                <tr>
+                    <td>Name</td>
+                    <td><span id="use-name">< Your Name ></span></td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td id="use-mobile">< Mobile Number ></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td id="use-email">< Your E-mail ></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td id="use-gender">< Male/Female ></td>
+                </tr>
+            </table>
+        </section>
+    <section class="det-summary-t">
+            <tr>
+                <td>Date</td>
+                <td>< Current Date ></td>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td>08.00 am - 09.00 am</td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td>1 hr (01: Normal, 00): Peak</td>
+            </tr>
+            
+            <tr class="sub-headr">
+                <td>Tickets</td>
+                <td>Charges</td>
+            </tr>
+            <tr class="hide" id="sl-adults-row">
+                <td data-ticket-type="SL Adult">1 Sl adult</td>
+                <td>$0</td>
+            </tr id="sl-child-row">
+            <tr class="hide">
+                <td data-ticket-type="SL Child">1 Sl child</td>
+                <td>$0</td>
+            </tr>
+            <tr id="foreign-adults-row">
+                <td data-ticket-type="Foreign Adult">1 Foreigner adult</td>
+                <td>$0</td>
+            </tr>
+            <tr class="hide" id="foreign-child-row">
+                <td data-ticket-type="Foreign Child">1 Foreigner child</td>
+                <td>$0</td>
+            </tr>
+            <tr class="hide" id="infant-row">
+                <td data-ticket-type="Infant">Infants</td>
+                <td>$0</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td>Total Payables</td>
+                    <td id="totalPayables">$0</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    
+        </div>
+  
+      
+
+ <script src="../JS/details.js"></script>   
+</body>
+</html>

@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*Head style*/
+    
+  h1 {
+     
+    background-color:#0cee6c;
+    line-height: 0.9em;
+    padding-bottom: 30px;
+    color: #fff;
+      
+  }
+     
+   h1 a{
+      
+      
+      color: rgb(0, 0, 0);
+      font-size:large;
+      text-decoration: none;
+      background-color: #2ECC71;
+  
+  }
+
+  h2 {
+    text-align: center;
+    padding: 0px;
+  }
+  
+  
+  ul.Header li {
+    display: inline;
+    font-size: 18px;
+  
+  
+  }
+    
+     
+  .Header li a{
+  text-decoration: none;
+  color: #000;
+  
+  
+  }
+  
+  
+  
+  
+  /* Body style */
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    color: #0c0101;
+  }
+ 
+  
+  /* Form style */
+  .Dcard {
+    background-color: #f5d0d0;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .Box1, .Box2 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #7f2c2c;
+    border-radius: 5px;
+  }
+  
+  .card1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Summary style */
+  .summary {
+    background-color: #f5d0d0;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px 1px;
+  }
+  
+  .use-details-t, .det-summary-table {
+    margin-bottom: 20px;
+  }
+  
+  .use-details-t table, .det-summary-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .use-details-t td, .det-summary-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .sub-headr {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  /* Pay button style */
+  .pay-button {
+    background-color: #2ad431;
+    color: #fff;
+    padding: 10px 20px;
+    border: #0c0101;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .pay-button:hover {
+    background-color: #45a049;
+    border-radius: 2px;
+  }
